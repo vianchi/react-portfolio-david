@@ -1,80 +1,93 @@
-const logotext = "David";
+const logotext = "DN";
 const meta = {
     title: "David Nieto",
     description: "Ingeniero de software con una amplia experiencia en el sector TI.",
 };
 
 const introdata = {
-    title: "David",
+    title: "David Nieto",
     animated: {
-        first: "Soy Ingeniero",
-        second: "de Software",
-        third: "Especialista en seguridad y gestion de bases de datos",
+        first: "Yo soy, Ingeniero de Software",
+        second: "Yo soy, Gestor de redes de datos y servidores ",
+        third: "Yo soy, Administrador de bases de datos",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Evaluación de riesgos, Resolución de problemas, Implementación de estrategias creativas, Comunicación asertiva, Conocimiento de leyes y estándares de seguridad",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Acerca de mi",
+    aboutme: "Ingeniero de software con una amplia experiencia en el sector TI. Me caracterizo por ser una persona responsable, honesta, dinámica con buenas relaciones interpersonales, con la capacidad de liderazgo para el trabajo en equipo.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Grupo Empresarial Don Pollo",
+        where: "Armenia , Quindío",
+        date: "2015",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Gobernación del Quindío",
+        where: "Armenia , Quindío",
+        date: "2016 - 2024 ",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Checkin Redes y Soluciones",
+        where: "Armenia , Quindío",
+        date: "2013 - 2024",
+    },
+    {
+        jobtitle: "Alcaldia de Calarca",
+        where: "Calarca , Quindío",
+        date: "2022 - 2023",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "SQL",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Ofimatica",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Windows Server",
         value: 80,
     },
     {
-        name: "React",
+        name: "Java",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Redes y Servidores",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Redes",
+        description: "- Montaje de redes de datos y cableado estructurado Categoría 5e, 6 y 6A.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Hardware",
+        description: "  Mantenimiento preventivo y correctivo de equipos de cómputo.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Software",
+        description: "Desarrollo de Sitio web.",
+    },
+    {
+        title: "Hardware y Software",
+        description: "Gestión de servidores Windows y Linux.",
+    },
+    {
+        title: "Hardware y Software",
+        description: "Gestión y Montaje de Aplicativo de Inventario de Equipos de Computo.",
     },
 ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Sena / estrategias para la orientación de procesos de formación en ambientes virtuales de aprendizaje",
         link: "#",
     },
     {
@@ -136,9 +149,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "soporte@checkinrys.com",
+    YOUR_FONE: "(+57) 317-6817865",
+    description: "Envíame cualquier inquietud que estaré siempre atento a responder",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +160,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/vianchi",
+    facebook: "https://www.facebook.com/IvanDavidNieto/",
+    linkedin: "https://www.linkedin.com/in/idna/",
 };
 export {
     meta,
